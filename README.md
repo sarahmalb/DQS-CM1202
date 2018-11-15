@@ -1,5 +1,8 @@
 CM1101-Group-
 
+![Alt text](https://github.com/sarahmalb/DQS-CM1202/blob/master/Final%20UCD.png "Title")
+
+
 Tasks to do
 •Count the amount of steps and edit difficulties accourdingly
 •Finish presentation (with script) and assign roles
