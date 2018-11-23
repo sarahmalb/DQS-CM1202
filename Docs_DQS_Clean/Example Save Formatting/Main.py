@@ -1,4 +1,11 @@
+import subprocess
+from tkinter import Tk
 
+window = Tk()
+window.geometry("266x208")
+window.title("Exam")
+window.mainloop()
+	
 def get_test(file_name):
 	file = open(file_name,'r')
 	raw = eval(file.read())
@@ -19,6 +26,11 @@ def make():
 	file.close
 
 def run():
+	files = str(subprocess.check_output('ls'))[2:-1].split('\\n')
+	print('There are these current tests in file')
+	for f in files:
+		if f not in ['','Main.py']:
+			print(f)
 	file_name = str(input('Which test do you want to do: '))
 	questions, answers = get_test(file_name)
 	correct = 0

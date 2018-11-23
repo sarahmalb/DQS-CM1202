@@ -1,1 +1,0 @@
-['What shape is the Earth', 'How many pyramids'],['Geoid', '100']
